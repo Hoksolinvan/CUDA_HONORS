@@ -513,6 +513,9 @@ std::vector<int> Parallel_DSDBSCAN(std::vector<std::pair<double, double>> Conten
 }
 
 
+__global__ void Parallel_DSDBSCAN(double* x, double* y, 
+
+
 // ============================================  END PARALLEL DSDBSCAN ==================================================
 // ======================================================================================================================
 
